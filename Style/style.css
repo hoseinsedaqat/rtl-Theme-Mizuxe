@@ -1,0 +1,103 @@
+/* !important */
+
+/* because use main bootstrap change to each section to rtl */
+
+/* i knows bootstrap rtl is exsited but i like this way */
+
+/* ---------------------------------------------------------------------- */
+
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6 !important;
+    background: #fff !important;
+    opacity: 0.9 !important;
+}
+
+.nav-item {
+    font-size: 1.4rem !important;
+    padding-right: 25px !important;
+}
+
+#showcase {
+    position: relative;
+    background: url('../photo/mountains.jpg');
+    min-height: 600px;
+    margin-top: 4.8rem;
+    padding: 25rem 0;
+    direction: rtl;
+}
+
+#newsletter {
+    direction: rtl;
+}
+
+#about {
+    direction: rtl;
+}
+
+#author {
+    direction: rtl;
+}
+
+#contact {
+    direction: rtl;
+}
+
+.primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: teal !important;
+}
+
+.btn {
+    border: none !important;
+}
+
+.bg-teal {
+    color: #fff;
+    background-color: teal;
+}
+
+.border-teal {
+    border: 1px solid teal;
+}
+
+.text-teal {
+    color: teal;
+}
+
+.border-line {
+    border: 1px solid #6666;
+}
+
+#author img {
+    margin-top: -50px;
+}
+
+#author .fa {
+    font-size: 25px;
+}
+
+@media(max-width:900px) {
+    #author .fa {
+        margin: 5rem 0;
+    }
+}
+
+#author .card:hover {
+    background-color: teal;
+    color: #fff;
+}
+
+.test {
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+}
